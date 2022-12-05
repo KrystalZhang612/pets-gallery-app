@@ -37,7 +37,7 @@ A SwiftUI video-based application with AVPlayer and the Pexels API that is full 
 # 🛠️ Developing Languages, Tools, and Techniques Needed
 [Xcode Version 14.1](https://developer.apple.com/xcode/)<br/> 
 [Swift 5.7](https://docs.swift.org/swift-book/)<br/> 
-[SwiftUI](https://developer.apple.com/xcode/swiftui/)<br/>  
+[SwiftUI](https://developer.apple.com/xcode/swiftui/)<br/>
 [Pexels API](https://www.pexels.com/api)<br/> 
 [JSON API](https://designcode.io/swiftui-advanced-handbook-data-from-json)<br/> 
 [AVKit](https://developer.apple.com/documentation/avkit)<br/> 
