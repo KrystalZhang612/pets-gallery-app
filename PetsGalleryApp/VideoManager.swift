@@ -4,7 +4,6 @@
 //
 //  Created by Krystal Zhang
 //
-
 import Foundation
 
 // An enumeration of the tags query our app offers
