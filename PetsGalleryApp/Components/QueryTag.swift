@@ -4,7 +4,6 @@
 //
 //  Created by Krystal Zhang on 12/3/22.
 //
-
 import SwiftUI
 
 struct QueryTag: View {
