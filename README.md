@@ -35,8 +35,17 @@ A SwiftUI video-based application with AVPlayer and the Pexels API that is full 
 ### Compatible with `MacOS Monterey 12.0` or higher versions
 ### Run the project, choose Simulator iPhone 14 or iPhone 14 Pro Max with `iOS15+` for best compatiability.
 # 🛠️ Developing Languages, Tools, and Techniques Needed
+[Xcode Version 14.1](https://developer.apple.com/xcode/)<br/> 
+[Swift 5.7](https://docs.swift.org/swift-book/)<br/> 
+[SwiftUI](https://developer.apple.com/xcode/swiftui/)<br/>  
+[Pexels API](https://www.pexels.com/api)<br/> 
+[JSON API](https://designcode.io/swiftui-advanced-handbook-data-from-json)<br/> 
+[AVKit](https://developer.apple.com/documentation/avkit)<br/> 
 <div>
  <img src = "https://github.com/devicons/devicon/blob/master/icons/xcode/xcode-original.svg" width = "60" height = "60" title = "Xcode"/>&nbsp; 
+ <img src = "https://github.com/devicons/devicon/blob/master/icons/swift/swift-original.svg" width = "60" height = "60" title = "Swift"/>&nbsp; 
+ <img src = "https://github.com/KrystalZhang612/images-attachments-collection/blob/main/swift%20ui%20symbol%20logo.png"  width = "60" height = "60" title = "SwiftUI"/>&nbsp; 
+ <img src = "https://github.com/KrystalZhang612/images-attachments-collection/blob/main/pexels%20logo.png" width = "60" height = "60" title = "pexels"/>&nbsp; 
  
 </div>
 
