@@ -19,7 +19,7 @@ A SwiftUI video-based application with AVPlayer and the Pexels API that is full 
 [Method to Run & Test the Project Locally](https://github.com/KrystalZhang612/PetsGalleryApp/blob/main/README.md#method-to-run--test-the-project-locally)<br/> 
 [Synchronous Developing Notes](https://github.com/KrystalZhang612/PetsGalleryApp/blob/main/README.md#synchronous-developing-notes)<br/> 
 [Testing Result](https://github.com/KrystalZhang612/PetsGalleryApp/blob/main/README.md#testing-result)<br/> 
-[Tags and Topics]()<br/> 
+[Tags and Topics](https://github.com/KrystalZhang612/PetsGalleryApp/blob/main/README.md#tags-and-topics)<br/> 
 # Contribution
 [Author]()
 # Compatibility
@@ -194,8 +194,6 @@ Fetch all categories in dispatch queue:
 
 
 # Tags and Topics
-
-
 
 
 
