@@ -49,6 +49,9 @@ A SwiftUI video-based application with AVPlayer and the Pexels API that is full 
  <img src = "https://github.com/KrystalZhang612/images-attachments-collection/blob/main/JSON%20logo.png" width = "60" height = "60" title = "JSON"/>&nbsp;  
 </div>
 
+# Synchronous Developing Notes
+
+
 
 
 
