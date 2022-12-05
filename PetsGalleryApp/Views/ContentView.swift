@@ -4,7 +4,6 @@
 //
 //  Created by Krystal Zhang on 12/3/22.
 //
-
 import SwiftUI
 
 struct ContentView: View {
@@ -22,8 +21,7 @@ struct ContentView: View {
                                 videoManager.selectedQuery = searchQuery
                             }
                       }
-                }
-                
+                }      
                 ScrollView {
                     if videoManager.videos.isEmpty {
                         ProgressView()
@@ -47,7 +45,6 @@ struct ContentView: View {
         }
     }
 }
-
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
