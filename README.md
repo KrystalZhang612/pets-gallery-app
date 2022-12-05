@@ -17,7 +17,7 @@ A SwiftUI video-based application with AVPlayer and the Pexels API that is full 
 
 # Build
 [Method to Run & Test the Project Locally](https://github.com/KrystalZhang612/PetsGalleryApp/blob/main/README.md#method-to-run--test-the-project-locally)<br/> 
-[Synchronous Developing Notes]()<br/> 
+[Synchronous Developing Notes](https://github.com/KrystalZhang612/PetsGalleryApp/blob/main/README.md#synchronous-developing-notes)<br/> 
 [Testing Result]()<br/> 
 [Tags and Topics]()<br/> 
 # Contribution
@@ -50,6 +50,35 @@ A SwiftUI video-based application with AVPlayer and the Pexels API that is full 
 </div>
 
 # Synchronous Developing Notes
+## ***Create Query Tag***
+Code query tag in [QueryTag.swift](https://github.com/KrystalZhang612/PetsGalleryApp/blob/main/PetsGalleryApp/Components/QueryTag.swift):
+```swift 
+var isSelected: Bool
+var body: some View {
+        Text(query)
+            .font(.caption)
+            .bold()
+            .foregroundColor(isSelected ? .black : .gray)
+            .padding(10)
+            .background(.thinMaterial)
+            .cornerRadius(10)
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
