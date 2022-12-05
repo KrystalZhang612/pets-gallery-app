@@ -1,6 +1,6 @@
 # PetsGalleryApp
 A SwiftUI video-based application with AVPlayer and the Pexels API that is full of various cute pets videos in 5 categories. The App contains different components and views, with JSON data, JSON data conversion into a custom SwiftUI model, API is called asynchronously, and also uses AVPlayer (from AVKit) to integrate the media player. I built this App for my crush Jason Yu as his birthday gift. 
-## ***[Copyright and Commercial Use Disclaimer]()***
+## ***[Copyright and Commercial Use Disclaimer](https://github.com/KrystalZhang612/PetsGalleryApp/blob/main/README.md#please-carefully-read-licensemd-about-the-open-source-restrictions-and-the-personal-use-policy-of-this-project-under-gpl-30-license-any-commericial-uses-on-this-project-by-other-than-the-owner-krystalzhang612-or-the-authorized-users-and-organizations-will-be-subjected-to-copyright-violation-with-sebsequent-potential-legal-concerns)***
 
 ⏬
 
