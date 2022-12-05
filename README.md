@@ -46,7 +46,7 @@ A SwiftUI video-based application with AVPlayer and the Pexels API that is full 
  <img src = "https://github.com/devicons/devicon/blob/master/icons/swift/swift-original.svg" width = "60" height = "60" title = "Swift"/>&nbsp; 
  <img src = "https://github.com/KrystalZhang612/images-attachments-collection/blob/main/swift%20ui%20symbol%20logo.png"  width = "60" height = "60" title = "SwiftUI"/>&nbsp; 
  <img src = "https://github.com/KrystalZhang612/images-attachments-collection/blob/main/pexels%20logo.png" width = "60" height = "60" title = "pexels"/>&nbsp; 
- 
+ <img src = "https://github.com/KrystalZhang612/images-attachments-collection/blob/main/JSON%20logo.png" width = "60" height = "60" title = "JSON"/>&nbsp;  
 </div>
 
 
