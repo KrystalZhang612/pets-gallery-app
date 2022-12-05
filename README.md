@@ -15,3 +15,18 @@ A SwiftUI video-based application with AVPlayer and the Pexels API that is full 
  <img src = "https://github.com/KrystalZhang612/PetsGalleryApp/blob/main/testing-result-PetsGalleryApp/PetsGallery%20App%20Overview6.PNG"  width = "380" height = "848.81818"/>&nbsp;
 </p>
 
+# Build
+[Method to Run & Test the Project Locally]()<br/> 
+[Synchronous Developing Notes]()<br/> 
+[Testing Result]()<br/> 
+[Tags and Topics]()<br/> 
+# Contribution
+[Author]()
+
+
+
+
+
+
+
+
