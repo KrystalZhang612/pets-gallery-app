@@ -63,27 +63,120 @@ var body: some View {
             .background(.thinMaterial)
             .cornerRadius(10)
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Make categories visible in [ContentView.swift](https://github.com/KrystalZhang612/PetsGalleryApp/blob/main/PetsGalleryApp/Views/ContentView.swift):
+```swift 
+struct ContentView: View {
+    var body: some View {
+        VStack {
+            HStack {
+                ForEach(Query.allCases, id: \.self){
+                    searchQuery in
+                    QueryTag(query: searchQuery, isSelected: false)
+                }
+```
+[all categories showed.PNG](https://github.com/KrystalZhang612/PetsGalleryApp/blob/main/testing-result-PetsGalleryApp/all%20categories%20showed.PNG)<br/>
+## ***Customize Video cards***
+Create a new SwiftUI file [VideoCard.swift](https://github.com/KrystalZhang612/PetsGalleryApp/blob/main/PetsGalleryApp/Components/VideoCard.swift):
+```swift
+ ZStack(alignment: .bottomLeading){
+            AsyncImage(url: URL(string: "")) { image in
+                image.resizable()
+                    .aspectRatio(contentMode: .fill)
+                    .frame(width: 160, height: 250)
+            } placeholder: {
+                Rectangle()
+                    .foregroundColor(.gray.opacity(0.3))
+        
+.frame(width: 160, height: 250)
+```
+[video card initial frame.PNG](https://github.com/KrystalZhang612/PetsGalleryApp/blob/main/testing-result-PetsGalleryApp/video%20card%20initial%20frame.PNG)<br/>
+Import video play button:
+```swift
+ Image(systemName: "play.fill")
+                .foregroundColor(.white)
+                .font(.title)
+                .padding()
+                .background(.ultraThinMaterial)
+                .cornerRadius(50)
+```
+[video play button.PNG](https://github.com/KrystalZhang612/PetsGalleryApp/blob/main/testing-result-PetsGalleryApp/video%20play%20button.PNG)<br/>
+## ***The Pexels API and ResponseBody model***
+Based on pexel page, attach the needed attributes into [VideoManager.swift](https://github.com/KrystalZhang612/PetsGalleryApp/blob/main/PetsGalleryApp/VideoManager.swift):
+```swift
+struct ResponseBody: Decodable {
+    var page: Int
+    var perPage: Int
+    var totalResults: Int
+    var url: String
+    var videos: [Video]
+```
+## ***Add JSON data***
+Import [videoData.json](https://github.com/KrystalZhang612/PetsGalleryApp/blob/main/PetsGalleryApp/Preview%20Content/videoData.json) as preview content, and in VideoCard.swift:
+```swift 
+AsyncImage(url: URL(string: video.image))
+```
+[video cover image displayed.PNG](https://github.com/KrystalZhang612/PetsGalleryApp/blob/main/testing-result-PetsGalleryApp/video%20cover%20image%20displayed.PNG)<br/>
+In [VideoView.swift](https://github.com/KrystalZhang612/PetsGalleryApp/blob/main/PetsGalleryApp/Views/VideoView.swift), add play button:
+```swift 
+ var video: Video
+    @State private var player = AVPlayer(
+    var body: some View {
+        VideoPlayer(player: player)
+    }
+  }
+struct VideoView_Previews: PreviewProvider {
+    static var previews: some View {
+        VideoView(video: previewVideo)
+}
+```
+[video view play button.PNG](https://github.com/KrystalZhang612/PetsGalleryApp/blob/main/testing-result-PetsGalleryApp/video%20view%20play%20button.PNG)<br/>
+Add constraints and video link for it to play:
+```swift 
+.edgesIgnoringSafeArea(.all)
+            .onAppear{
+                if let link = video.videoFiles.first?.link {
+                    player = AVPlayer(url: URL(string: link)!)
+                    player.play()
+```
+[video preview played.PNG](https://github.com/KrystalZhang612/PetsGalleryApp/blob/main/testing-result-PetsGalleryApp/video%20preview%20played.PNG)<br/>
+## ***Generate API key for Pexels API***
+Go to https://www.pexels.com/api/new and obtain a private API.<br/> 
+In [ContentView.swift](https://github.com/KrystalZhang612/PetsGalleryApp/blob/main/PetsGalleryApp/Views/ContentView.swift), fetch videos in various categories with the imported API:
+```swift 
+NavigationView{
+            VStack {
+ false)
+HStack {
+    ForEach(Query.allCases, id: \.self){
+        searchQuery in
+        QueryTag(query: searchQuery, isSelected:
+} }
+ScrollView {
+    ForEach(videoManager.videos, id: \.id) {
+} }
+video in
+NavigationLink {
+    VideoView(video: video)
+} label: {
+    VideoCard(video: video)
+}
+    .frame(maxWidth: .infinity)
+}
+.background(Color("AccentColor"))
+```
+[videos in categories fetched.PNG](https://github.com/KrystalZhang612/PetsGalleryApp/blob/main/testing-result-PetsGalleryApp/videos%20in%20categories%20fetched.PNG)<br/>
+Use
+```swift 
+LazyVGrid(columns: columns, spacing: 20)
+```
+method to make videos align better:<br/>
+[videos aligned better.PNG](https://github.com/KrystalZhang612/PetsGalleryApp/blob/main/testing-result-PetsGalleryApp/videos%20aligned%20better.PNG)<br/>
+Fetch all categories in dispatch queue:
+```swift 
+ DispatchQueue.main.async {
+          // Reset the videos (for when we're calling the API again)
+                self.videos = []
+           // Assigning the videos we fetched from the API
+                self.videos = decodedData.videos
+            }
+```
