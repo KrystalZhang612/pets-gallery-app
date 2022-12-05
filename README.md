@@ -29,7 +29,7 @@ A SwiftUI video-based application with AVPlayer and the Pexels API that is full 
 | < iOS 10         | :x:                |
 | macOS Mojave     | ✅                 |
 | macOS Monterey   | ✅                 |
-
+# Method to Run & Test the Project Locally
 
 
 
