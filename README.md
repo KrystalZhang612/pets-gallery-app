@@ -35,6 +35,10 @@ A SwiftUI video-based application with AVPlayer and the Pexels API that is full 
 ### Compatible with `MacOS Monterey 12.0` or higher versions
 ### Run the project, choose Simulator iPhone 14 or iPhone 14 Pro Max with `iOS15+` for best compatiability.
 # 🛠️ Developing Languages, Tools, and Techniques Needed
+<div>
+ <img src = "https://github.com/devicons/devicon/blob/master/icons/xcode/xcode-original.svg" width = "60" height = "60" title = "Xcode"/>&nbsp; 
+ 
+</div>
 
 
 
