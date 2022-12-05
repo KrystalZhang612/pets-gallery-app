@@ -181,7 +181,29 @@ Fetch all categories in dispatch queue:
             }
 ```
 # Testing Result
+<p align = "center">
+ <img src = "https://github.com/KrystalZhang612/PetsGalleryApp/blob/main/testing-result-PetsGalleryApp/all%20categories%20showed.PNG" width = "380" height = "848.81818">&nbsp; 
+ <img src = "https://github.com/KrystalZhang612/PetsGalleryApp/blob/main/testing-result-PetsGalleryApp/video%20card%20initial%20frame.PNG" width = "380" height = "848.81818">&nbsp; 
 
+
+[video play button.PNG](https://github.com/KrystalZhang612/PetsGalleryApp/blob/main/testing-result-PetsGalleryApp/video%20play%20button.PNG)<br/>
+
+[video cover image displayed.PNG](https://github.com/KrystalZhang612/PetsGalleryApp/blob/main/testing-result-PetsGalleryApp/video%20cover%20image%20displayed.PNG)<br/>
+
+[video view play button.PNG](https://github.com/KrystalZhang612/PetsGalleryApp/blob/main/testing-result-PetsGalleryApp/video%20view%20play%20button.PNG)<br/>
+
+
+[video preview played.PNG](https://github.com/KrystalZhang612/PetsGalleryApp/blob/main/testing-result-PetsGalleryApp/video%20preview%20played.PNG)<br/>
+
+
+
+[videos in categories fetched.PNG](https://github.com/KrystalZhang612/PetsGalleryApp/blob/main/testing-result-PetsGalleryApp/videos%20in%20categories%20fetched.PNG)<br/>
+
+
+
+[videos aligned better.PNG](https://github.com/KrystalZhang612/PetsGalleryApp/blob/main/testing-result-PetsGalleryApp/videos%20aligned%20better.PNG)<br/>
+ 
+</p>
 
 
 
