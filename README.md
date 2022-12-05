@@ -16,7 +16,7 @@ A SwiftUI video-based application with AVPlayer and the Pexels API that is full 
 </p>
 
 # Build
-[Method to Run & Test the Project Locally]()<br/> 
+[Method to Run & Test the Project Locally](https://github.com/KrystalZhang612/PetsGalleryApp/blob/main/README.md#method-to-run--test-the-project-locally)<br/> 
 [Synchronous Developing Notes]()<br/> 
 [Testing Result]()<br/> 
 [Tags and Topics]()<br/> 
@@ -25,11 +25,15 @@ A SwiftUI video-based application with AVPlayer and the Pexels API that is full 
 # Compatibility
 |   OS             | Supported          |
 | -------          | ------------------ |
-| iOS 10+          | :white_check_mark: |
-| < iOS 10         | :x:                |
+| iOS 15+          | :white_check_mark: |
+| < iOS 15         | :x:                |
 | macOS Mojave     | ✅                 |
 | macOS Monterey   | ✅                 |
 # Method to Run & Test the Project Locally
+### Download the entire project to local directory
+### Xcode must be `13.4` and higher versions with all Xcode dependencies updated.
+### Compatible with `MacOS Monterey 12.0` or higher versions
+### Run the project, choose Simulator iPhone 14 or iPhone 14 Pro Max with `iOS15+` for best compatiability.
 
 
 
