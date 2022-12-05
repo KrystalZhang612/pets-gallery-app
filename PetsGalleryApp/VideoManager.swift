@@ -41,7 +41,7 @@ class VideoManager: ObservableObject {
         var urlRequest = URLRequest(url: url)
         
         // Setting the Authorization header of the HTTP request - replace YOUR_API_KEY by your own API key
-        urlRequest.setValue("563492ad6f91700001000001f1302ba6a0de4ef99fd456808f3f3092", forHTTPHeaderField: "Authorization")
+        urlRequest.setValue("YOUR API FROM PEXEL.COM/API/NEW", forHTTPHeaderField: "Authorization")
         
             // Fetching the data
             let (data, response) = try await URLSession.shared.data(for: urlRequest)
