@@ -4,7 +4,6 @@
 //
 //  Created by Krystal Zhang on 12/4/22.
 //
-
 import SwiftUI
 
 struct VideoCard: View {
@@ -43,7 +42,6 @@ struct VideoCard: View {
         }
     }
 }
-
 struct VideoCard_Previews: PreviewProvider {
     static var previews: some View {
         VideoCard(video: previewVideo)
