@@ -191,6 +191,8 @@ Fetch all categories in dispatch queue:
  <img src = "https://github.com/KrystalZhang612/PetsGalleryApp/blob/main/testing-result-PetsGalleryApp/videos%20in%20categories%20fetched.PNG" width = "380" height = "848.81818">&nbsp; 
  <img src = "https://github.com/KrystalZhang612/PetsGalleryApp/blob/main/testing-result-PetsGalleryApp/videos%20aligned%20better.PNG" width = "380" height = "848.81818">&nbsp;  
 </p>
+
+
 # Tags and Topics
 
 
